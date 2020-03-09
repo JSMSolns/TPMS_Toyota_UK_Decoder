@@ -135,13 +135,13 @@ void PrintTPMSData(int index)
 
   Serial.print(F("ID: "));
   Serial.print(TPMS[index].TPMS_ID, HEX);
-  Serial.print(F("Wheel: "));
+  Serial.print(F(",   Wheel: "));
   switch(index)
   {
-    case 0:  Serial.print(F("FL,   ")); break;
-    case 1:  Serial.print(F("FR,   ")); break;
-    case 2:  Serial.print(F("RL,   ")); break;
-    case 3:  Serial.print(F("RR,   ")); break;
+    case 0:  Serial.print(F("FL")); break;
+    case 1:  Serial.print(F("FR")); break;
+    case 2:  Serial.print(F("RL")); break;
+    case 3:  Serial.print(F("RR")); break;
 
   }
   Serial.print(F(",   Status: "));
