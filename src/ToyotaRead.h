@@ -788,9 +788,9 @@ bool ValidateTimings_PMVC010()
   int ManchesterStartPos = -1;
   //    byte pattern[] = { 0xF0 };
   //    int pattern_bits_len = 7;
-  byte pattern[] = { 0xCC, 0xAB };
+  byte pattern[] = { 0x33, 0x54 };
   //byte pattern2[] = { 0x33, 0x54};
-  int pattern_bits_len = 16;
+  int pattern_bits_len = 15;
   int MCount;
 
 
